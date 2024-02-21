@@ -20,7 +20,7 @@
 |------------|--------------|-------------------------------------------------|
 | emp_id     | INT          | Primary Key, Unique identifier for the doctor   |
 | name       | VARCHAR(50)  | Name of the doctor                              |
-| specialty  | VARCHAR(18)  | Specialization of the doctor                    |
+| specialization  | VARCHAR(18)  | Specialization of the doctor                    |
 | dep_id     | INT          | Foreign Key referencing Department|
 
 ### Medicines Table

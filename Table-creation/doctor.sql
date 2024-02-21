@@ -1,7 +1,7 @@
 create table doctor (
 	emp_id INT,
 	name VARCHAR(50),
-	specialty VARCHAR(18),
+	specialization VARCHAR(18),
 	dep_id INT,
     primary key(emp_id)
 );
