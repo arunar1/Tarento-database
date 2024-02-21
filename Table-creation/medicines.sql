@@ -1,6 +1,6 @@
 create table medicines (
 	med_id INT,
-	name VARCHAR(50)
+	name VARCHAR(550)
 );
 insert into medicines (med_id, name) values (1, 'Quinidine Gluconate');
 insert into medicines (med_id, name) values (2, 'TITANIUM DIOXIDE');
