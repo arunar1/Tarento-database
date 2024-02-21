@@ -2,7 +2,8 @@
 
 ## ER Diagram
 
-The ER diagram for the Hospital Management System has been created and can be found in the directory `ER-diagram`.
+![Hospital Diagram](./ER-diagram/hospital_management.png)
+
 
 ## Tables
 
