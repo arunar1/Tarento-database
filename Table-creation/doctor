@@ -2,7 +2,8 @@ create table doctor (
 	emp_id INT,
 	name VARCHAR(50),
 	specialty VARCHAR(18),
-	dep_id INT
+	dep_id INT,
+    primary key(emp_id)
 );
 insert into doctor (emp_id, name, specialty, dep_id) values (20, 'Benito', 'Neurologist', 2);
 insert into doctor (emp_id, name, specialty, dep_id) values (89, 'Cheston', 'Dermatologist', 2);
