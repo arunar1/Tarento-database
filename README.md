@@ -28,7 +28,7 @@
 | Field  | Type         | Description                                     |
 |--------|--------------|-------------------------------------------------|
 | med_id | INT          | Unique identifier for the medicine              |
-| name   | VARCHAR(50)  | Name of the medicine                            |
+| name   | VARCHAR(550)  | Name of the medicine                            |
 
 ### Patient Table
 
