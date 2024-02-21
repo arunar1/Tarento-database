@@ -21,7 +21,7 @@
 | emp_id     | INT          | Primary Key, Unique identifier for the doctor   |
 | name       | VARCHAR(50)  | Name of the doctor                              |
 | specialty  | VARCHAR(18)  | Specialization of the doctor                    |
-| dep_id     | INT          | Foreign Key referencing Department, Department the doctor belongs to |
+| dep_id     | INT          | Foreign Key referencing Department|
 
 ### Medicines Table
 
@@ -36,5 +36,5 @@
 |--------|--------------|-------------------------------------------------|
 | p_id   | INT          | Primary Key, Unique identifier for the patient  |
 | name   | VARCHAR(50)  | Name of the patient                             |
-| med_id | INT          | Foreign Key referencing Medicines, Medicine ID related to the patient |
-| emp_id | INT          | Foreign Key referencing Doctor, Doctor ID related to the patient  |
+| med_id | INT          | Foreign Key referencing Medicines related to the patient |
+| emp_id | INT          | Foreign Key referencing Doctor  |
