@@ -36,5 +36,5 @@
 |--------|--------------|-------------------------------------------------|
 | p_id   | INT          | Primary Key, Unique identifier for the patient  |
 | name   | VARCHAR(50)  | Name of the patient                             |
-| med_id | INT          | Foreign Key referencing Medicines related to the patient |
+| med_id | INT          | Foreign Key referencing Medicines  |
 | emp_id | INT          | Foreign Key referencing Doctor  |
