@@ -1,5 +1,5 @@
 create table medicines (
-	med_id INT,
+	med_id INT primary key,
 	name VARCHAR(550)
 );
 insert into medicines (med_id, name) values (1, 'Quinidine Gluconate');
