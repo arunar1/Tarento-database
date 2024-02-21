@@ -1,8 +1,8 @@
 create table patient (
 	p_id INT primary key,
 	name VARCHAR(50),
-	med_id INT,
-	emp_id INT
+	med_id INT references medicines(med_id),
+	emp_id INT references doctor(emp_id)
 );
 insert into patient (p_id, name, med_id, emp_id) values (89, 'Pippa', 63, 73);
 insert into patient (p_id, name, med_id, emp_id) values (60, 'Lanna', 84, 36);
